@@ -1,0 +1,72 @@
+*{margin: 0px;}
+/*HEADEER*/
+.header01{
+    padding: 30px;
+    background-color: #BAFB6E;
+}
+.Main01{
+    background-color:#365622 ;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.Izquierda{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    
+}
+#Titulo01{
+    
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+}
+#Subtitulo01{
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(150, 150, 150);
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+#Logo01{
+    border-top-left-radius: 150px;
+border-top-right-radius: 150px;
+}
+.Derecha{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+}
+.Productos01,.Contactos01,.Registrarse01{
+    color: #BAFB6E;
+    font-size: 30px;
+    margin-bottom: 2px;
+    border-bottom: 2px solid white;
+    padding: 20px;
+    transition: 0.3s;
+}
+.Productos01:hover,.Contactos01:hover,.Registrarse01:hover{
+    color: #fefefe;
+    font-size: 50px;
+    margin-bottom: 2px;
+    border-bottom: 4px solid #BAFB6E;
+    padding: 20px;
+    transition: 0.5;
+}
+.Footer01{
+    padding: 40px;
+    background-color: #BAFB6E;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+#LogoFacebook,#LogoWhatsapp,#LogoInstagram{
+    
+}
