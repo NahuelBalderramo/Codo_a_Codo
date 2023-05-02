@@ -76,6 +76,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
     
      }
 .Imagen2{
@@ -88,6 +89,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
  }
 .Imagen3 {
     background-image: url(Imagenes/Verificadores.jpg) ;
@@ -99,6 +101,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
  }
 .Imagen4{ 
     background-image: url(Imagenes/Distribucion.jpg) ;
@@ -110,6 +113,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 .Imagen5{ 
     background-image: url(Imagenes/Soportes.jpg) ;
@@ -121,6 +125,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 .Imagen6 { 
     background-image: url(Imagenes/Herramientas.jpg) ;
@@ -132,6 +137,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 
  }
  #SobreTexto { 

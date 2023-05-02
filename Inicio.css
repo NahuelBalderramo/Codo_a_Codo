@@ -24,18 +24,61 @@
     
     font-family: 'Montserrat', sans-serif;
     color: white;
-    font-size: 50px;
+    font-size: 40px;
     padding: 10px;
+    animation-name: AgrandarTitulo;
+    animation-duration: 1.5s;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+}
+@keyframes AgrandarTitulo {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 #Subtitulo01{
     font-family: 'Roboto Mono', monospace;
     color: rgb(150, 150, 150);
-    font-size: 30px;
+    font-size: 25px;
     padding-bottom: 20px;
+    animation-name: AgrandarSubtitulo;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    
+}
+@keyframes AgrandarSubtitulo {
+    0%{
+        transform: scale(0);
+        
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 #Logo01{
     border-top-left-radius: 150px;
 border-top-right-radius: 150px;
+animation-name: ApareceLogo;
+animation-duration: 1s;
+animation-delay: 0;
+animation-iteration-count: 1;
+animation-direction:normal;
+}
+@keyframes ApareceLogo {
+    0%{
+        transform: scale(0);
+        transform: translateX(-700px);
+        
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 .Derecha{
     
@@ -44,7 +87,7 @@ border-top-right-radius: 150px;
     justify-content: center;
     text-align: center;
     width: 400px;
-}
+    }
 .Productos01,.Contactos01,.Registrarse01{
     color: #BAFB6E;
     font-size: 30px;
@@ -52,6 +95,21 @@ border-top-right-radius: 150px;
     border-bottom: 2px solid white;
     padding: 20px;
     transition: 0.3s;
+    animation-name: ApareceBotones;
+    animation-duration: 1s;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+    }
+    @keyframes ApareceBotones {
+        0%{
+            transform: scale(0);
+            transform: translateX(700px);
+            
+        }
+        100%{
+            transform: scale(1);
+            }
 }
 .Productos01:hover,.Contactos01:hover,.Registrarse01:hover{
     color: #fefefe;
