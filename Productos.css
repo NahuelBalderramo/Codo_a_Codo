@@ -1,0 +1,197 @@
+*{margin: 0px;}
+.Header11{
+    padding: 0px;
+    background-color: #BAFB6E;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.links11{
+    background-color: #BAFB6E;
+    right: 1110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px; 
+    height:35px
+}
+.Productos01,.Contactos01,.Registrarse01{
+    color: black;
+    padding: 10px;
+    margin-bottom: 2px;
+    border-bottom: 2px solid white;   
+    transition: 0.3s;
+}
+.Productos01:hover,.Contactos01:hover,.Registrarse01:hover{
+    color: rgb(69, 69, 69);
+    font-size: 20px;
+    transition: 0.5s;
+    padding: 10px;
+    margin-bottom: 2px;
+    border-bottom: 4px solid white;  
+    background-color: #8fd441; 
+    border-radius: 20px;
+}
+#Imagen11{ 
+    background-color: #BAFB6E; 
+    padding-right: 250px;
+}
+.Main11{
+    background-color: #365622 ;
+    display: flex;
+    flex-direction: column;
+    padding-bottom:40px;
+        }
+.Seccion11{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin-top:25px;
+        color:#BAFB6E;
+        font-family: 'Roboto Mono', monospace;
+        font-size:17px;
+    
+}
+.Seccion121{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            gap: 50px;
+            padding-top: 20px;
+            }
+.Seccion122{
+            display: flex;
+            align-content: center;
+            justify-content: center;
+            gap: 50px;
+            padding-top: 20px;
+        }    
+.Imagen1 {
+    background-image: url(Imagenes/Embragues.jpg) ;
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+     }
+.Imagen2{
+    background-image: url(Imagenes/Encendido.jpg) ;
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.Imagen3 {
+    background-image: url(Imagenes/Verificadores.jpg) ;
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+.Imagen4{ 
+    background-image: url(Imagenes/Distribucion.jpg) ;
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Imagen5{ 
+    background-image: url(Imagenes/Soportes.jpg) ;
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Imagen6 { 
+    background-image: url(Imagenes/Herramientas.jpg) ;
+    width: 250px;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ #SobreTexto { 
+    background-color: #b9fb6ecc;
+    width:300px;
+    height:60px;
+    display:flex;
+     justify-content:center;
+     align-items:center;
+     color: black;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+      transition:0.3s;
+      }
+ #SobreTexto:hover { 
+    background-color: #365622b8;
+    width:300px;
+    height:250px;
+     transition:0.5s;
+    display:flex;
+     justify-content:center;
+     align-items:center;
+     color: white;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+      }
+      .Footer00{
+        display: flex;
+        flex-direction: column;
+        background-color: #BAFB6E;
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .Footer01{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    #LogoFacebook,#LogoWhatsapp,#LogoInstagram{
+        transform: rotate(0deg);
+        transition: 0.5s ;
+        
+    }
+    #LogoFacebook:hover{
+        transform: rotate(-45deg);
+        transition: 0.5s ;}
+        
+    #LogoWhatsapp:hover{
+        transform: rotate(360deg);
+        transition: 0.5s ;}
+        
+    #LogoInstagram:hover{
+        transform: rotate(45deg);
+        transition: 0.5s ;
+        
+    }
+    .Footer002{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    
