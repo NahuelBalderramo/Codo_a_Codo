@@ -1,4 +1,10 @@
-*{margin: 0px;}
+*{margin: 0px;
+}
+.ody{    background-image: url(Imagenes/ImagenFondojpg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
 /*HEADEER*/
 .header01{
     padding: 30px;
@@ -6,12 +12,15 @@
 
 }
 .Main01{
-    background-color:#365622 ;
+ /*   background-color:#365622 ;*/
+    
+    background-color: rgb(0 0 0 / 59%);
     display: flex;
     justify-content: center;
     gap: 200px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
     padding-top: 40px;
+    ;
 }
 .Izquierda{
     display: flex;
@@ -69,6 +78,7 @@ animation-duration: 1s;
 animation-delay: 0;
 animation-iteration-count: 1;
 animation-direction:normal;
+opacity: calc(85%);
 }
 @keyframes ApareceLogo {
     0%{
