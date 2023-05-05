@@ -1,0 +1,12 @@
+.Main21{
+    padding: 100px;
+    background-color: #365622;
+    
+}
+.Formulario{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

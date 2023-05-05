@@ -1,16 +1,18 @@
 *{margin: 0px;
 }
-.ody{    background-image: url(Imagenes/ImagenFondojpg.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;}
+
 /*HEADEER*/
 .header01{
     padding: 30px;
     background-color: #BAFB6E;
 
 }
+.ody{    background-image: url(Imagenes/ImagenFondojpg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;}
+    /*MAIN*/
 .Main01{
  /*   background-color:#365622 ;*/
     
