@@ -1,12 +1,106 @@
 .Main21{
-    padding: 100px;
+    padding: 50px;
     background-color: #365622;
     
-}
-.Formulario{
     
+}
+.Formulario {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+     
+    background-color: #365622; 
+       
+}
+#ObtenerNombre0{
+    color: white;
+    padding: 10px;
+    padding-bottom: 2px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#ObtenerNombre,#ObtenerApellido,#Email,#Celular{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 5px groove #6efb75;   
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#boton0{
+    background-color: #BAFB6E;
+    padding: 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+    border:3px solid white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);  
+    transition: 0.5s;    
+
+}
+
+@keyframes Enviar {
+    0%{
+        border:5px solid rgb(62, 231, 15);
+        
+        
+    }
+    10%{
+        border:5px solid rgb(105, 227, 71);
+
+    }
+    20%{
+        border:5px solid rgb(147, 223, 127);
+   
+    }
+    30%{
+        border:5px solid rgb(190, 225, 181);
+ 
+    }
+    40%{
+        border:5px solid rgb(223, 223, 223);
+
+    }
+    50%{
+        border:5px solid rgb(222, 225, 221);
+
+    }
+    60%{
+        border:5px solid rgb(190, 225, 181);
+ 
+    }
+    70%{
+        border:5px solid rgb(147, 223, 127);
+
+    }
+    80%{
+        border:5px solid rgb(105, 227, 71);
+ 
+    }
+    90%{
+        border:5px solid rgb(62, 231, 15);
+
+    }
+    100%{
+        border:5px solid rgb(62, 231, 15);
+
+        }
+}
+#boton0:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: white;
+    background-color: #0d100b;
+    border:3px solid white;
+    animation-name: Enviar;
+    animation-duration:3s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
 }
