@@ -1,8 +1,23 @@
 .Main21{
     padding: 50px;
     background-color: #365622;
-    
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Pregunta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 25px;
+    margin-bottom: 50px;
+    background-color: #b9fb6e5e;
+    border-radius: 15px;
+    border: 4px solid aliceblue;
+    font-family: 'Times New Roman', Times, serif;
 }
 .Formulario {
     display: flex;
@@ -10,8 +25,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-     
+    border: 1px solid #BAFB6E;
+    border-radius: 15px; 
     background-color: #365622; 
+    width: 1000px;
        
 }
 #ObtenerNombre0{
@@ -38,11 +55,13 @@
     padding: 20px;
     border-radius: 25px;
     margin-top: 20px;
+    margin-bottom: 15px;
     border:5px solid white;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(0, 0, 0);  
-    transition: 0.5s;    
+    transition: 0.5s;  
+      
 
 }
 
