@@ -53,19 +53,21 @@
     padding-right: 250px;
 }
 .Main12{
-    background-color: #365622 ;
+    padding: 50px;
+    background-color: #365622;
     display: flex;
     flex-direction: column;
-    padding-bottom:40px;
+    justify-content: center;
+    align-items: center;
         }
 .Seccion123{
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        margin-top:25px;
-        color:#BAFB6E;
-        font-family: 'Roboto Mono', monospace;
-        font-size:17px;
+    display: flex;
+    align-content: left;
+    justify-content: left;
+    margin-top:25px;
+    color:#BAFB6E;
+    font-family: 'Roboto Mono', monospace;
+    font-size:17px;
     }
 .Seccion124{
         display: flex;
@@ -79,9 +81,8 @@
 .Seccion125{
     display: flex;
     flex-direction: column;
-    gap: 30px 15px;
-    align-content: left;
-    justify-content: left;
+    align-content: center;
+    justify-content: center;
     padding-top: 20px;
     color:#aadf69;
     font-family: 'Roboto Mono', monospace;
