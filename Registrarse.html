@@ -28,26 +28,26 @@
         <div id="ObtenerNombre0">
         <label for="ObtenerNombre" >Nombre</label>
     </div>
-        <input type="text" id="ObtenerNombre" name="Formulario" required >
+        <input type="text" id="ObtenerNombre" name="Formulario"  >
         <div id="ObtenerNombre0">
         <label for="ObtenerApellido">Apellido</label>
     </div>
-        <input type="text" id="ObtenerApellido" name="Formulario" required >
+        <input type="text" id="ObtenerApellido" name="Formulario"  >
         <div id="ObtenerNombre0">
         <label for="Email">Email</label>
     </div>
-        <input type="email" id="Email" name="Formulario" required >
+        <input type="email" id="Email" name="Formulario"  >
         <div id="ObtenerNombre0">
         <label for="Celular">Celular</label>
     </div>
-        <input type="" id="Celular" name="Formulario" required >
+        <input type="" id="Celular" name="Formulario" >
     <div id="boton">
-        <input type="submit" value="Quiero que me contacten" id="boton0">
+        <input type="submit" onclick="return enviarForm()" value="Quiero que me contacten" id="boton0">
     </div>
         
-        
     </form>
-
+    <div id="error"></div>
+<script src="validarFormulario.js"></script>
 </main>
 
 
