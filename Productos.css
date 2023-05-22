@@ -218,3 +218,82 @@
         text-align: center;
     }
     
+    @media only screen and (max-width: 768px) {
+        .Header11{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        
+        .links11{
+          display: none;
+        }
+        
+        #Imagen11{
+          display: none;
+        }
+
+        .Seccion11 {
+            text-align: center;
+        }
+        
+        .Seccion121, .Seccion122{
+          flex-direction: column;
+          gap: 30px;
+          padding-top: 0px;
+        }
+        
+        .Imagen1, .Imagen2, .Imagen3, .Imagen4, .Imagen5, .Imagen6{
+          width: 100%;
+          height: 60px;
+          margin-bottom: 20px;
+        }
+        
+        .Main11{
+          padding-bottom: 0px;
+          gap: 10px;
+        }
+
+        .Seccion121 { 
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .Seccion122 { 
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        #SobreTexto { 
+            background-color: #b9fb6ecc;
+            width: 100%;
+            height:100%;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            color: black;
+            font-size: 25px;
+            font-family: 'Roboto Mono', monospace;
+            border-radius: 10px;
+        }
+
+        .Footer01 {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            gap: 10px;
+          }
+          
+          #LogoFacebook,
+          #LogoWhatsapp,
+          #LogoInstagram {
+            width: 45px;
+            height: 45px;
+          }
+          
+          .Footer002 {
+            font-size: 16px;
+            justify-content: center;
+          }
+      }
+      
