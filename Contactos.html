@@ -61,7 +61,33 @@
             <p class="Hora"> Cerrado</p>
         </section>        
         </section>
-        </main>
+        <section class="Seccion131">
+            <h2 id="Titulo06">¿Estas interesado en comprar? <br> Mira la cotización del día</h2>
+            <button onclick="traer()">Cotizaciones:</button>
+            <div class="Tipodedolar">Tipo de Dolar: <span id="dolar"></span></div>
+            <div class="Cotización">Cotización: <span id="compra"></span></div>
+            <br>
+            <div class="Tipo de dolar">Tipo de Dolar: <span id="dolar2"></span></div>
+            <div class="Cotización">Cotización: <span id="compra2"></span></div>
+        <script>
+            dolarCont=document.querySelector('#dolar')
+            compraCont=document.querySelector('#compra')
+            dolar2Cont=document.querySelector('#dolar2')
+            compra2Cont=document.querySelector('#compra2')
+            function traer(){
+                fetch('https://www.dolarsi.com/api/api.php?type=valoresprincipales')
+                .then(res=>res.json())
+                .then(data=>{
+                    dolarCont.innerHTML=`${data[0].casa.nombre}`
+                    compraCont.innerHTML=`${data[0].casa.compra}`
+                    dolar2Cont.innerHTML=`${data[1].casa.nombre}`
+                    compra2Cont.innerHTML=`${data[1].casa.compra}`
+                }
+                )
+            }
+        </script>
+        </section>
+        </main>       
     <footer class="Footer00" >
         <section class="Footer01">
         <img src="Imagenes/LogoFacebook.png" alt="Logo Facebook" height="50px" width="50px" id="LogoFacebook">
