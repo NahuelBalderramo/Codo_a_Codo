@@ -12,7 +12,7 @@ function validateForm() {
     var errorEmail = document.getElementById("errorEmail");
     var errorTelefono = document.getElementById("errorTelefono");
 
-    // Validación del campo nombre
+    // Validación  nombre
     if (nombre === "") {
       errorNombre.innerHTML = "Por favor, ingresa tu nombre";
       isValid = false;
@@ -20,7 +20,7 @@ function validateForm() {
       errorNombre.innerHTML = "";
     }
 
-    // Validación del campo apellido
+    // Validaciónapellido
     if (apellido === "") {
       errorApellido.innerHTML = "Por favor, ingresa tu apellido";
       isValid = false;
@@ -28,7 +28,7 @@ function validateForm() {
       errorApellido.innerHTML = "";
     }
 
-    // Validación del campo email
+    // Validación email
     if (email === "") {
       errorEmail.innerHTML = "Por favor, ingresa tu email";
       isValid = false;
@@ -36,7 +36,7 @@ function validateForm() {
       errorEmail.innerHTML = "";
     }
 
-    // Validación del campo teléfono
+    // Validación  teléfono
     if (telefono === "") {
       errorTelefono.innerHTML = "Por favor, ingresa tu teléfono";
       isValid = false;
