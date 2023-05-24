@@ -89,7 +89,7 @@
     font-size:20px;
     
 }
-<<<<<<< HEAD
+
 .link11 {
    
     padding: 2px 1px 0;
@@ -107,8 +107,8 @@
 }
 
 
-.Seccion126{
-=======
+.Seccion126{}
+
 #link00 {
     outline: none;
     text-decoration: none;
@@ -120,7 +120,7 @@
     background: #CDFEAA;    
   }  
    .Seccion126{
->>>>>>> 425f40eb67588f59dcb5066cc004fc7f2a51704b
+
     display: flex;
     align-content: left;
     justify-content: left;
@@ -146,7 +146,12 @@
     font-family: 'Roboto Mono', monospace;
     font-size:20px;
 }
-.Telefono{
+#Titulo04{
+    color:#a5ae9b;
+    font-family: 'Roboto Mono', monospace;
+    font-size:18px;
+}
+#Titulo05{
     color:#a5ae9b;
     font-family: 'Roboto Mono', monospace;
     font-size:18px;
@@ -187,10 +192,6 @@
     align-content: left;
     justify-content: left;
     padding-top: 1px;
-<<<<<<< HEAD
-    margin: 20px;
-    
-=======
 }
 .Seccion131{
     display: flex;
@@ -212,7 +213,6 @@
     color:#345b06;
     font-family: 'Roboto Mono', monospace;
     font-size:15px;   
->>>>>>> 425f40eb67588f59dcb5066cc004fc7f2a51704b
 }
 .iframe1{
     background-image: url(https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.9203383818844!2d-66.9102111!3d10.5069406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a5ec4b89463b7%3A0x38ed3dbcea501859!2sAv.%20Urdaneta%2C%20Caracas%2C%20Distrito%20Capital%2C%20Venezuela!5e0!3m2!1ses!2sar!4v1683474272042!5m2!1ses!2sar)
