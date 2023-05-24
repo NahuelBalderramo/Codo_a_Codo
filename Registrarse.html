@@ -21,33 +21,39 @@
         <img src="Imagenes\Logo.jpg" alt="Logo marca" height="100px" width="200px" id="Imagen11">
         <h1 id="Vacio"></h1>
     </header>
+    <script src="validarFormulario.js"> </script>    
 <main class="Main21">
     
-    <form action="" class="Formulario">
-        <div class="Pregunta">ME INTERESAN SUS PRODUCTOS </div>
+    <form action="" class="Formulario" onsubmit="return validateForm()">
+
+        <div class="Pregunta"> ME INTERESAN SUS PRODUCTOS </div>
         <div id="ObtenerNombre0">
         <label for="ObtenerNombre" >Nombre</label>
     </div>
         <input type="text" id="ObtenerNombre" name="Formulario"  >
+        <span id="errorNombre" class="error"></span>
         <div id="ObtenerNombre0">
         <label for="ObtenerApellido">Apellido</label>
     </div>
         <input type="text" id="ObtenerApellido" name="Formulario"  >
+        <span id="errorApellido" class="error"></span>
         <div id="ObtenerNombre0">
         <label for="Email">Email</label>
     </div>
         <input type="email" id="Email" name="Formulario"  >
+        <span id="errorEmail" class="error"></span>
         <div id="ObtenerNombre0">
         <label for="Celular">Celular</label>
     </div>
-        <input type="number" id="Celular" name="Formulario" >
-    <div id="boton">
-        <input type="submit" onclick="return enviarForm()" value="Quiero que me contacten" id="boton0">
+        <input type="" id="Celular" name="Formulario" >
+        <span id="errorTelefono" class="error"></span>
+        <div id="boton">
+        <input type="submit"  value="Quiero que me contacten" id="boton0">
     </div>
         
     </form>
-    <div id="error"></div>
-<script src="validarFormulario.js"></script>
+    
+   
 </main>
 
 

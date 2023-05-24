@@ -1,29 +1,48 @@
-var ObtenerNombre = document.getElementById('ObtenerNombre')
-var ObtenerApellido = document.getElementById('ObtenerApellido')
-var email = document.getElementById('email')
-var Celular = document.getElementById('Celular')
-var error = document.getElementById('error')
-error.style.color = 'red'
+function validateForm() {
+    // Obtenemos los valores deL HTML
+    var nombre = document.getElementById("ObtenerNombre").value;
+    var apellido = document.getElementById("ObtenerApellido").value;
+    var email = document.getElementById("Email").value;
+    var telefono = document.getElementById("Celular").value;
 
-function enviarForm() {
-    console.log('El formulario esta siendo enviado...');
-    var mensajeDeError = []
+    // Defino Variables
+    var isValid = true;
+    var errorNombre = document.getElementById("errorNombre");
+    var errorApellido = document.getElementById("errorApellido");
+    var errorEmail = document.getElementById("errorEmail");
+    var errorTelefono = document.getElementById("errorTelefono");
 
-    if (ObtenerNombre.value === null || nombre.value === '') {
-        mensajeDeError.push('Ingresa tu nombre')    
-    }
-    if (ObtenerApellido === null || nombre.value === '') {
-        mensajeDeError.push('Ingresa tu apellido')    
-    }
-    if (email === null || nombre.value === '') {
-        mensajeDeError.push('Ingresa tu mail')    
-    }
-    if (Celular === null || nombre.value === '') {
-        mensajeDeError.push('Ingresa tu celular')    
+    // Validación del campo nombre
+    if (nombre === "") {
+      errorNombre.innerHTML = "Por favor, ingresa tu nombre";
+      isValid = false;
+    } else {
+      errorNombre.innerHTML = "";
     }
 
-    error.innerHTML = mensajeDeError.join(', ')
-    stop
-    return false;
-    
-}
+    // Validación del campo apellido
+    if (apellido === "") {
+      errorApellido.innerHTML = "Por favor, ingresa tu apellido";
+      isValid = false;
+    } else {
+      errorApellido.innerHTML = "";
+    }
+
+    // Validación del campo email
+    if (email === "") {
+      errorEmail.innerHTML = "Por favor, ingresa tu email";
+      isValid = false;
+    } else {
+      errorEmail.innerHTML = "";
+    }
+
+    // Validación del campo teléfono
+    if (telefono === "") {
+      errorTelefono.innerHTML = "Por favor, ingresa tu teléfono";
+      isValid = false;
+    } else {
+      errorTelefono.innerHTML = "";
+    }
+
+    return isValid;
+  }

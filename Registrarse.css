@@ -117,13 +117,18 @@
 }
 #boton0:hover{
     transform: scale(1.1);
-    transition: 1.5s;
+    transition: 0.5s;
     color: white;
     background-color: #0d100b;
     border:5px solid rgb(62, 231, 15);
     animation-name: Enviar;
-    animation-duration:1s;
+    animation-duration:0.5s;
     animation-delay: 0;
     animation-iteration-count: 1;
     animation-direction:normal;
+}
+.error{
+    color: red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
 }
