@@ -169,3 +169,110 @@ opacity: calc(85%);
     justify-content: center;
     text-align: center;
 }
+
+/* CSS para dispositivos móviles */
+
+/* Agregar estilos para hacer el header responsivo */
+@media screen and (max-width: 768px) {
+    .header01 {
+      padding: 15px;
+      height: auto;
+    }
+    
+    #Titulo01 {
+      font-size: 30px;
+    }
+    
+    #Subtitulo01 {
+      font-size: 20px;
+    }
+    
+    #Logo01 {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+    
+    .Productos01,
+    .Contactos01,
+    .Registrarse01 {
+      font-size: 20px;
+      margin-bottom: 5px;
+      padding: 10px;
+    }
+    
+    .Productos01:hover,
+    .Contactos01:hover,
+    .Registrarse01:hover {
+      font-size: 25px;
+      margin-bottom: 5px;
+      padding: 10px;
+      border-bottom: 2px solid #ffffff;
+    }
+  }
+  
+  /* Agregar estilos para hacer el main responsivo */
+  @media screen and (max-width: 768px) {
+    .Main01 {
+      flex-direction: column;
+      gap: 20px;
+      padding-bottom: 50px;
+      padding-top: 50px;
+    }
+    
+    .Izquierda {
+      margin-bottom: 20px;
+    }
+    
+    .Derecha {
+      width: 100%;
+      margin: 0 auto;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    
+    .Productos01,
+    .Contactos01,
+    .Registrarse01 {
+      font-size: 25px;
+      margin-bottom: 5px;
+      padding: 10px;
+    }
+    
+    .Productos01:hover,
+    .Contactos01:hover,
+    .Registrarse01:hover {
+      font-size: 30px;
+      margin-bottom: 5px;
+      padding: 10px;
+      border-bottom: 2px solid #ffffff;
+    }
+  }
+  
+  /* Agregar estilos para hacer el footer responsivo */
+  @media screen and (max-width: 768px) {
+
+    .Footer00 { 
+      margin-top: auto;
+    }
+
+    .Footer01 {
+      margin-top: 20px;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    
+    #LogoFacebook,
+    #LogoWhatsapp,
+    #LogoInstagram {
+      width: 40px;
+      height: 40px;
+    }
+    
+    .Footer002 {
+      font-size: 12px;
+      justify-content: center;
+    }
+  }
+  
