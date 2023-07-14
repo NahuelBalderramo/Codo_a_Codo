@@ -1,0 +1,265 @@
+*{margin: 0px;}
+.Header11{
+    padding: 0px;
+    background-color: #BAFB6E;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.links11{
+    background-color: #BAFB6E;
+    right: 1110px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px; 
+    height:35px
+}
+#Imagen11{
+    animation-name: ImagenSuperior;
+    animation-duration: 1s;
+    animation-delay: 0;
+    animation-iteration-count: 1;
+    animation-direction:normal;
+}
+@keyframes ImagenSuperior {
+    0%{
+        transform: translateX(-700px);
+    }
+    100%{
+
+    }
+}
+.Productos01,.Contactos01,.Registrarse01{
+    color: black;
+    padding: 10px;
+    margin-bottom: 2px;
+    border-bottom: 2px solid white;   
+    transition: 0.3s;
+}
+.Productos01:hover,.Contactos01:hover,.Registrarse01:hover{
+    color: rgb(33, 33, 33);
+    transform: scale(1.2);
+    transition: 0.5s;
+    padding: 10px;
+    margin-bottom: 2px;
+    border-bottom: 2px solid white;  
+    background-color: #a4ec52; 
+    border-radius: 10px;
+}
+#Imagen11{ 
+    background-color: #BAFB6E; 
+    padding-right: 250px;
+}
+.Main12{
+    padding: 50px;
+    background-color: #365622;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        }
+.Seccion123{
+    display: flex;
+    align-content: left;
+    justify-content: left;
+    margin-top:25px;
+    color:#BAFB6E;
+    font-family: 'Roboto Mono', monospace;
+    font-size:17px;
+    }
+.Seccion124{
+        display: flex;
+        align-content: left;
+        justify-content: left;
+        margin-top:25px;
+        color:#BAFB6E;
+        font-family: 'Roboto Mono', monospace;
+        font-size:17px;
+    }
+.Seccion125{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    color:#aadf69;
+    font-family: 'Roboto Mono', monospace;
+    font-size:20px;
+    
+}
+
+.link11 {
+   
+    padding: 2px 1px 0;
+    border-radius: 5px;
+    transition: 1seg;
+    color: #a5ae9b;
+    width: 200px;
+    padding: 5px;
+  }
+.link11:hover{
+    transition: 1s;
+    transform: scale(1.1);
+    background-color: #a4ec52;
+    color: white;
+}
+
+
+.Seccion126{}
+
+#link00 {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    border-radius: 5px;
+    transition: 1seg;
+    width: 200px;
+    margin: 10px;
+    background: #CDFEAA;    
+  }  
+   .Seccion126{
+
+    display: flex;
+    align-content: left;
+    justify-content: left;
+    margin-top:25px;
+    color:#BAFB6E;
+    font-family: 'Roboto Mono', monospace;
+    font-size:17px;
+
+}
+.Seccion127{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px 30px;
+    align-content: left;
+    justify-content: left;
+    padding-top: 20px;
+    color:#6ba924;
+    font-family: 'Roboto Mono', monospace;
+    font-size:20px;
+}
+.Ciudad{
+    color:#6ba924;
+    font-family: 'Roboto Mono', monospace;
+    font-size:20px;
+}
+#Titulo04{
+    color:#a5ae9b;
+    font-family: 'Roboto Mono', monospace;
+    font-size:18px;
+}
+#Titulo05{
+    color:#a5ae9b;
+    font-family: 'Roboto Mono', monospace;
+    font-size:18px;
+}
+.Seccion128{
+    display: flex;
+    align-content: left;
+    justify-content: left;
+    margin-top:25px;
+    color:#BAFB6E;
+    font-family: 'Roboto Mono', monospace;
+    font-size:17px;
+}
+.Seccion129{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px 30px;
+    gap: 20px 20px 20px;
+    align-content: left;
+    justify-content: left;
+    padding-top: 20px;
+}    
+.Dias{
+    color:#6ba924;
+    font-family: 'Roboto Mono', monospace;
+    font-size:20px;
+}
+.Hora{
+    color:#a5ae9b;
+    font-family: 'Roboto Mono', monospace;
+    font-size:18px;
+}
+
+.Seccion130{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 50px 30px;
+    align-content: left;
+    justify-content: left;
+    padding-top: 1px;
+}
+.Seccion131{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align:center;
+    padding-top: 15px;
+    font-family: 'Roboto Mono', monospace;
+    font-size:15px;
+    margin-bottom: 20px;
+    background-color:#9fa49d8c; 
+    border-radius: 10px;
+    color:#BAFB6E;
+    width: 450px;
+    margin: 15px;
+}
+.dolar{
+    color:#345b06;
+    font-family: 'Roboto Mono', monospace;
+    font-size:15px;   
+}
+.iframe1{
+    background-image: url(https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3922.9203383818844!2d-66.9102111!3d10.5069406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a5ec4b89463b7%3A0x38ed3dbcea501859!2sAv.%20Urdaneta%2C%20Caracas%2C%20Distrito%20Capital%2C%20Venezuela!5e0!3m2!1ses!2sar!4v1683474272042!5m2!1ses!2sar)
+  }
+
+.iframe2{
+    background-image: url(https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.2144110376125!2d-67.59459192407577!3d10.244284068781804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e803ca54b06055f%3A0x1808d1133935812c!2sAv.%20Constituci%C3%B3n%2C%20Maracay%2C%20Aragua%2C%20Venezuela!5e0!3m2!1ses!2sar!4v1683474456110!5m2!1ses!2sar)
+ }
+
+.iframe3{
+    background-image: url("https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3926.6313364533767!2d-68.00155991452493!3d10.210563643365164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e805d75ac019dc7%3A0x8f735cd182481b5d!2sAvenida%20Arturo%20Michelena%2C%20Valencia%202001%2C%20Carabobo%2C%20Venezuela!5e0!3m2!1ses!2sar!4v1683474654198!5m2!1ses!2sar")
+}
+      .Footer00{
+        display: flex;
+        flex-direction: column;
+        background-color: #BAFB6E;
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .Footer01{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    #LogoFacebook,#LogoWhatsapp,#LogoInstagram{
+        transform: rotate(0deg);
+        transition: 0.5s ;
+        
+    }
+    #LogoFacebook:hover{
+        transform: rotate(-45deg);
+        transition: 0.5s ;}
+        
+    #LogoWhatsapp:hover{
+        transform: rotate(360deg);
+        transition: 0.5s ;}
+        
+    #LogoInstagram:hover{
+        transform: rotate(45deg);
+        transition: 0.5s ;
+        
+    }
+    .Footer002{
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
